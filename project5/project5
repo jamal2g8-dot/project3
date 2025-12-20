@@ -1,0 +1,18 @@
+
+<!doctype html>
+<html>
+    <head>
+        <style>
+            .Wrapper{
+               width:80px;
+               height:80px;
+
+            }
+        </style>
+        <body>
+            <h1>MY VACATION PHOTOS</h1>
+            <div>
+            </div>
+        </body>
+    </head>
+</html>
