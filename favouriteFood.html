@@ -1,0 +1,89 @@
+
+<!doctype html>
+<html>
+    <head>
+        <title>My Favourite Food</title>
+        <style>
+         .wrapper{
+                width:100%;
+                height:auto;
+                background-color: red;
+                margin: 30px 0;
+                padding:20px ;
+            }
+            .aboutusContainer{
+                width:90%;
+                height:350px;
+                 margin: auto;
+                 display: flex;
+                 justify-content:space-between;
+                 align-items: center;            }
+            .imageContainer{
+                width:48%;
+                height:100%;
+                
+            }
+            .textContainer{
+                width:48%;
+                height:100%;
+                 display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+            }
+            .imageContainer img{
+                width:100%;
+                height:100%;
+                object-fit:cover;
+                border-radius:10px ;
+            }
+            .textContainer input{
+                width:150px;
+                height:50px;
+                background-color: blue;
+                border-radius: 10px;
+                color: white;
+            }
+            .textContainer input:hover{
+                color:white;
+                background-color: green;
+                transform:scale(1.1)
+            }
+            .textContainer button{
+                width:130px;
+                height:40px;
+                border-radius: 10px;
+                padding:10px 0 ;
+            }
+            .textContainer button:hover{
+                background-color:blue;
+                cursor: pointer;
+                color: white;
+            }
+        </style>
+        <body>
+           <div class="wrapper">
+                <div class="aboutusContainer">
+                    <div class="textContainer">
+                        <h2>HOW TO EAT IT</h2>
+                         <ol>
+                <li>You first get your fork and knife.</li>
+                <li>Use the fork to hold it and use the knife to cut it.</li>
+                <li>You can then dip it in the stew and eat it.</li>
+                <li>I mostly like to use my hand, because its easy and also nice.</li>
+            </ol>
+            <input type="text" placeholder="Enter favourite food">
+            <p>Choose your favourite food</p>
+            <button>Pizza</button>
+            <button>Burger</button>
+            <button>Ice Cream</button>
+                       </div>
+                      <div class="imageContainer">
+                        <img src="images/GhanianFood.jpg">
+                     </div>
+                </div>
+            </div>
+           
+             </body>
+    </head>
+</html>
