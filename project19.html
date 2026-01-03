@@ -4,36 +4,56 @@
     <head>
         <style>
             .Wrapper{
-                width: 100%;
-                height:auto;
-               display: flex;
-               justify-content: center;
-               align-items: center;
-            }
-            .Wrapperbutton {
-                width:500px;
-                height: 70px;
+                width: 70%;
+                height:70vh;
                 background-color: red;
+                margin: auto;
+               
+               
+            }
+            .textContainer{
+                width:200px;
+                height: 50px;
+                background-color: blue;
+                margin:auto;
+                padding: 10px;
+            }
+            .inputWrapper{
+                width:200px;
+                height: 90px;
+                color: white;
+                border-radius: 5px;
+                
+            }
+            .inputWrapper input{
+                width:100%;
+                height:60%;
+                background-color: yellow;
                 text-align: center;
                 margin: 10px;
+                border: none;
+                outline: none;
+                list-style:none;
             }
-           .Wrapperinput{
-            width: 180px;
-            height:70px;
-            background-color: blue;
-           }
+            .inputWrapper input:hover{
+                background-color: deepskyblue;
+                cursor: pointer;
+                border: none;
+                outline: none;
+                transform: scale(1.05)
+             }
         </style>
         <body>
             <div class="Wrapper">
-        <div class="Wrapperbutton">
-        <input type="radio button" placeholder="Choose Your Favourite Animal"><br>
-        </div>
-        <div class="Wrapperinput">
-        <input type="text" placeholder="Dog"><br>
-        <input type="text" placeholder="Cat"><br>
-        <input type="text" placeholder="Rabbit">
-        </div>
-        </div>
+                <div class="textContainer">
+                    <p>Pick your favourite animal</p>
+                </div>
+                <div class="inputWrapper">
+                    <input type="radio button" placeholder="Dog"><br>
+                     <input type="radio button" placeholder="Cat"><br>
+                      <input type="radio button" placeholder="Rabbit">
+                </div>
+            </div>
         </body>
     </head>
 </html>
